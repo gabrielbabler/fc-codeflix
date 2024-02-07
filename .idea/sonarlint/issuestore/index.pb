@@ -45,3 +45,5 @@ w
 Gdomain/src/main/java/com/gbabler/admin/catalogue/domain/Identifier.java,c/b/cb1b7ee57b77edbf0ad056457f66c78b3d0477ef
 z
 Jdomain/src/main/java/com/gbabler/admin/catalogue/domain/AggregateRoot.java,b/8/b84f8a9403f6a25cf50ff4a99682f4b01fe45570
+€
+Pdomain/src/main/java/com/gbabler/admin/catalogue/domain/category/CategoryID.java,3/5/35e9c01a1f71f6e015f4406815b162f1666e1f8f
