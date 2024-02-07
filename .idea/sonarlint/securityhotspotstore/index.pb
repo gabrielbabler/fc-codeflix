@@ -31,3 +31,7 @@ Napplication/src/main/java/com/gbabler/admin/catalogue/application/UseCase.java
 Rapplication/src/test/java/com/gbabler/admin/catalogue/application/UseCaseTest.java,4/b/4b2a1a2475cbe94d35b5c29bddb809bcc03395e3
 …
 Uinfrastructure/src/test/java/com/gbabler/admin/catalogue/infrastructure/MainTest.java,0/1/01f771734148418dbf96ed358ca9408ab1745cfb
+~
+Ndomain/src/main/java/com/gbabler/admin/catalogue/domain/category/Category.java,8/2/82bcf9ef1a283d73d58c7eee9ae874487426ffb7
+‚
+Rdomain/src/test/java/com/gbabler/admin/catalogue/domain/category/CategoryTest.java,c/6/c6975440bb2bef2f8344a9641e5867797c67a366
