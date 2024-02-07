@@ -3,16 +3,16 @@ package com.gbabler.admin.catalogue.domain.category;
 import com.gbabler.admin.catalogue.domain.AggregateRoot;
 
 import java.time.Instant;
-import java.util.UUID;
+
 
 public class Category extends AggregateRoot<CategoryID> {
 
-    private String name;
-    private String description;
-    private boolean active;
-    private Instant createdAt;
-    private Instant updatedAt;
-    private Instant deletedAt;
+    private final String name;
+    private final String description;
+    private final boolean active;
+    private final Instant createdAt;
+    private final Instant updatedAt;
+    private final Instant deletedAt;
 
     private Category(final CategoryID anId,
                     final String aName,
