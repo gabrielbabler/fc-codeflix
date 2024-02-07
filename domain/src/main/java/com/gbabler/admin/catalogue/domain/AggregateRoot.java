@@ -1,8 +1,9 @@
 package com.gbabler.admin.catalogue.domain;
 
-public class AggregateRoot<ID extends Identifier> extends Entity<ID>{
+public abstract class AggregateRoot<ID extends Identifier> extends Entity<ID>{
 
     protected AggregateRoot(final ID id) {
         super(id);
     }
+
 }

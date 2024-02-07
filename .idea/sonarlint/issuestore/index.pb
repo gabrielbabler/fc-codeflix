@@ -1,8 +1,6 @@
 
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-c
-3src/main/java/com/gbabler/admin/catalogue/Main.java,a/1/a13cf9d34a932f7beceb8abd62368d08f8444649
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 ?
@@ -11,20 +9,12 @@ c
 gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
 C
 domain/build.gradle,a/3/a3021bb5ba623a461b5fdb89ae51923a4945c354
-q
-Adomain/src/main/java/com/gbabler/admin/catalogue/domain/Main.java,7/b/7b5788d8db6058e6ee2c1ba5d1606288bec73c09
 H
 application/build.gradle,a/a/aa9cf0dce48be9892530b6983bf9282cc49f2a75
-{
-Kapplication/src/main/java/com/gbabler/admin/catalogue/application/Main.java,9/3/93e5d1544793c49d00bc434c7f4ae1888aee77c6
 K
 infrastructure/build.gradle,d/0/d08ad7275ca05d13cb570f6f624eee8075619a60
 
 Qinfrastructure/src/main/java/com/gbabler/admin/catalogue/infrastructure/Main.java,1/e/1e8df7def9f0ed498e89753179ce4320225582e0
-u
-Edomain/src/main/java/com/gbabler/admin/catalogue/domain/Category.java,d/2/d2b3e236786da0e1b4d8d9d2fb57e3a2e6402141
-y
-Idomain/src/test/java/com/gbabler/admin/catalogue/domain/CategoryTest.java,0/0/00b6f1d4ed1dd3c75c969c15eaad2e0966d40911
 ~
 Napplication/src/main/java/com/gbabler/admin/catalogue/application/UseCase.java,1/b/1b042ac6b59563b5fffb2fab589d9b8960984135
 ‚
@@ -47,3 +37,15 @@ z
 Jdomain/src/main/java/com/gbabler/admin/catalogue/domain/AggregateRoot.java,b/8/b84f8a9403f6a25cf50ff4a99682f4b01fe45570
 €
 Pdomain/src/main/java/com/gbabler/admin/catalogue/domain/category/CategoryID.java,3/5/35e9c01a1f71f6e015f4406815b162f1666e1f8f
+‚
+Rdomain/src/main/java/com/gbabler/admin/catalogue/validation/ValidationHandler.java,3/2/32674e639c8d1e7b9c53095b0b802970e6882be9
+v
+Fdomain/src/main/java/com/gbabler/admin/catalogue/validation/Error.java,1/b/1beca2554b243562f11cde1057e682614b6751f5
+z
+Jdomain/src/main/java/com/gbabler/admin/catalogue/validation/Validator.java,1/1/11073c937d5c5806cfb366b3114976830b869320
+‡
+Wdomain/src/main/java/com/gbabler/admin/catalogue/domain/category/CategoryValidator.java,a/5/a541bd2875a0a2ad778107f644bad7b7a261838c
+€
+Pdomain/src/main/java/com/gbabler/admin/catalogue/exceptions/DomainException.java,8/e/8e846619b360e45bf6f8fdf69ec51be73f1f0b56
+
+`domain/src/main/java/com/gbabler/admin/catalogue/validation/handler/ThrowsValidationHandler.java,0/8/085c95adfbfd5a3a0c2678d4b1279b5730a3f716
