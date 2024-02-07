@@ -35,3 +35,13 @@ Uinfrastructure/src/test/java/com/gbabler/admin/catalogue/infrastructure/MainTes
 Ndomain/src/main/java/com/gbabler/admin/catalogue/domain/category/Category.java,8/2/82bcf9ef1a283d73d58c7eee9ae874487426ffb7
 ‚
 Rdomain/src/test/java/com/gbabler/admin/catalogue/domain/category/CategoryTest.java,c/6/c6975440bb2bef2f8344a9641e5867797c67a366
+?
+fc-codeflix.iml,a/3/a30327c87698d2f7a0beb72df7bf6c6fa39a6579
+x
+Hdomain/src/main/java/com/gbabler/admin/catalogue/domain/ValueObject.java,c/b/cb0e0965985eb431b91bdeb15fbe76460211b224
+s
+Cdomain/src/main/java/com/gbabler/admin/catalogue/domain/Entity.java,c/e/ce10bbff399ce83c97e240f4c1c6bb161edbb009
+w
+Gdomain/src/main/java/com/gbabler/admin/catalogue/domain/Identifier.java,c/b/cb1b7ee57b77edbf0ad056457f66c78b3d0477ef
+z
+Jdomain/src/main/java/com/gbabler/admin/catalogue/domain/AggregateRoot.java,b/8/b84f8a9403f6a25cf50ff4a99682f4b01fe45570
