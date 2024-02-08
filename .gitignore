@@ -7,6 +7,7 @@ build/
 .env
 .env.local
 sandbox/.docker
+*/build/
 
 ### STS ###
 .apt_generated
