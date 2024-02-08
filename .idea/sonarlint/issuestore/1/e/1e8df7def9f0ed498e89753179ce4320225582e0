@@ -1,3 +1,4 @@
 
 L	java:S106"+Replace this use of System.out by a logger.(‚ŞÏ¥ıÿÿÿÿ8­×à‡Ø1
-L	java:S106"+Replace this use of System.out by a logger.(ô£œÒüÿÿÿÿ8­×à‡Ø1
+n
+java:S1128"LRemove this unused import 'com.gbabler.admin.catalogue.application.UseCase'.(Óšóúÿÿÿÿ8¾°Ø1

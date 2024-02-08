@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gbabler.admin.catalogue.application.UseCaseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-07T00:28:05" hostname="D56TC2271K" time="0.011">
-  <properties/>
-  <testcase name="testCreateUseCase()" classname="com.gbabler.admin.catalogue.application.UseCaseTest" time="0.011"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

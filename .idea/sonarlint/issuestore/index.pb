@@ -49,3 +49,5 @@ Wdomain/src/main/java/com/gbabler/admin/catalogue/domain/category/CategoryValida
 Pdomain/src/main/java/com/gbabler/admin/catalogue/exceptions/DomainException.java,8/e/8e846619b360e45bf6f8fdf69ec51be73f1f0b56
 ê
 `domain/src/main/java/com/gbabler/admin/catalogue/validation/handler/ThrowsValidationHandler.java,0/8/085c95adfbfd5a3a0c2678d4b1279b5730a3f716
+Ü
+Vdomain/src/main/java/com/gbabler/admin/catalogue/exceptions/NoStackTraceException.java,e/6/e629c39a9e399bb3427e03ad5c5d6f570f48971d
