@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gbabler.admin.catalogue.infrastructure.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-08T00:04:22" hostname="D56TC2271K" time="0.011">
-  <properties/>
-  <testcase name="testMain()" classname="com.gbabler.admin.catalogue.infrastructure.MainTest" time="0.011"/>
-  <system-out><![CDATA[Hello world!
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
