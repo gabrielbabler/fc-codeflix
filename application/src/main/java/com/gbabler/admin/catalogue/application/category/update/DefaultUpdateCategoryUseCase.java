@@ -6,7 +6,6 @@ import com.gbabler.admin.catalogue.domain.category.CategoryID;
 import com.gbabler.admin.catalogue.exceptions.DomainException;
 import com.gbabler.admin.catalogue.validation.Error;
 import com.gbabler.admin.catalogue.validation.handler.Notification;
-import io.vavr.API;
 import io.vavr.control.Either;
 
 import java.util.Objects;
