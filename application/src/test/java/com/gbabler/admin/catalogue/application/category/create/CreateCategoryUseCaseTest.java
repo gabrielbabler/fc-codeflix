@@ -23,7 +23,7 @@ import static org.mockito.Mockito.when;
 public class CreateCategoryUseCaseTest {
 
     @InjectMocks
-    private DefaultCreateCategoryUseCase useCase;
+    private DefaultCreateCategoryUseCase defaultCreateCategoryUseCase;
 
     @Mock
     private CategoryGateway categoryGateway;
@@ -39,7 +39,7 @@ public class CreateCategoryUseCaseTest {
         when(categoryGateway.create(any()))
                 .thenAnswer(returnsFirstArg());
 
-        final var actualOutput = useCase.execute(aCommand);
+        final var actualOutput = defaultCreateCategoryUseCase.execute(aCommand);
 
         Assertions.assertNotNull(actualOutput);
         Assertions.assertNotNull(actualOutput.id());
@@ -63,7 +63,7 @@ public class CreateCategoryUseCaseTest {
 
         final var aCommand = CreateCategoryCommand.with(expectedName, expectedDescription, expectedIsActive);
 
-        final var actualException = Assertions.assertThrows(DomainException.class, () -> useCase.execute(aCommand));
+        final var actualException = Assertions.assertThrows(DomainException.class, () -> defaultCreateCategoryUseCase.execute(aCommand));
 
         Assertions.assertEquals(expectedErrorMessage, actualException.getMessage());
         verify(categoryGateway, times(0)).create(any());
@@ -80,7 +80,7 @@ public class CreateCategoryUseCaseTest {
         when(categoryGateway.create(any()))
                 .thenAnswer(returnsFirstArg());
 
-        final var actualOutput = useCase.execute(aCommand);
+        final var actualOutput = defaultCreateCategoryUseCase.execute(aCommand);
 
         Assertions.assertNotNull(actualOutput);
         Assertions.assertNotNull(actualOutput.id());
@@ -107,7 +107,7 @@ public class CreateCategoryUseCaseTest {
         when(categoryGateway.create(any()))
                 .thenThrow(new IllegalStateException(expectedErrorMessage));
 
-        final var actualException = Assertions.assertThrows(IllegalStateException.class, () -> useCase.execute(aCommand));
+        final var actualException = Assertions.assertThrows(IllegalStateException.class, () -> defaultCreateCategoryUseCase.execute(aCommand));
 
         Assertions.assertEquals(expectedErrorMessage, actualException.getMessage());
 
